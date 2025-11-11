@@ -1,0 +1,32 @@
+h2 {
+    color: brown;
+    text-align: center;
+}
+form {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid plum;
+    padding: 20px;
+    border-radius:5px ;
+    font-family: aakar;
+
+}
+button {
+   background-color: yellow;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    color: purple;
+    padding: 10px;
+    cursor:pointer;
+    font-size: 16px;
+}
+input{
+    border: 1px solid lightcoral;
+    border-radius: 3px;
+
+}
+label{
+    font-weight: bold;
+    display: block ;
+}

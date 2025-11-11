@@ -1,0 +1,17 @@
+#box {
+    border: 1px solid darkgreen;
+    background: #0097a7;
+    padding: 20px;
+    margin: 50px;
+
+}
+#abc{
+    color: coral;
+}
+#about{
+    color: darkred;
+}
+.cursor{
+    color: lightcoral;
+    font-family: Arial, sans-serif;
+}

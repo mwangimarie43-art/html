@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gridcontainer</title>
+    <style>
+        .mycontainer{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-image: url("static/images/cat.jpg");
+            padding:10px;
+            gap:10px;
+        }
+        .mycontainer div{
+            background-color: teal;
+            color:white;
+            border:2px solid black;
+            padding:20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <div>
+         <div class="mycontainer">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+              <div>5</div>
+              <div>6</div>
+         </div>
+   </div> 
+</body>
+</html>

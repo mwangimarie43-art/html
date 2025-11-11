@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #hello{
+
+        animation-name:myanime;
+        animation-duration: 2s;
+        animation-iteration-count: infinite}
+        #welcome {
+            animation:slidein 5s infinite
+        }
+        @keyframes myanime {
+        0%{
+            color: green;
+            transform: translateX(0px);
+
+        }
+            50%{color: darkblue;}
+            100%{color: chocolate;}
+        }
+        @keyframes slidein {
+            0%{
+                color: darkblue;
+                transform: translateX(0px);
+            }
+            100%{
+                color: red;
+                transform: translateX(600px);
+            }
+
+        }
+        .mydiv{
+            background-color: chocolate;
+            width: 200px;
+            height: 300px;
+            animation-name:spin ;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-iteration-count: 10;
+        }
+        @keyframes spin {
+            0%{transform: rotate(0deg);
+            background-color: #0097a7}
+            50%{transform: rotate(180deg);
+                background-color: green;}
+            100%{transform: rotate(360deg);
+                background-color: blueviolet;
+            }
+        }
+    </style>
+</head>
+<body>
+<h3 id="welcome">Welcome to Philons</h3>
+<p id="hello">love in the first bite</p>
+<div class="mydiv">
+    <p>Animation</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+h2{
+    color: darkblue;
+    text-align:center;
+}
+form{
+    border: 1px solid plum;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+label{
+    font-weight: bold;
+    color: lightcoral;
+}
+button  {
+    background-color: yellow;
+
+}

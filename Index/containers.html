@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mycontainers</title>
+    <style>
+        .mycontainer{
+            display: flex;
+            background-image: url("images.html");
+            flex-direction: row-reverse;
+        }
+        .mycontainer div{
+            background-color: burlywood;
+            margin:10px;
+            padding:10px;
+            width:100px;
+            height:100px;
+            border:2px solid black;
+            float:right;
+
+        }
+        /* on a screen that is 500px wide or less, make the container stack the boxes vertically */
+    @media (max-width: 500px){
+        .mycontainer{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="mycontainer">
+        <div style="order: 2;">Box 1</div>
+        <div style="order: 4;">Box 2</div>
+        <div>Box 3</div>
+        <div>Box 4</div>
+    </div>
+</body>
+</html>
